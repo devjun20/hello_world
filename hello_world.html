@@ -19,11 +19,17 @@
         </div>
         <div style="float: left">
             <h2 style="float: left;">브랜치2</h2> 
-            <button id="btnHello2" style="margin: 20px;">
+            <button id="btnHello2" style="float: left; margin: 20px;">
+                hello
+            </button>
+            <h2 style="float: left;">브랜치1 에서 작업함.</h2> 
+            <button id="btnHello1" style="float: left; margin: 20px;">
                 hello
             </button>
         </div>
     </body>
+
+    
 
 
 </html>
@@ -35,5 +41,8 @@
     })
     $('#btnHello2').click(function() {
         alert("안녕2");
+    })
+    $('#btnHello1').click(function() {
+        alert("안녕1");
     })
 </script>
